@@ -45,10 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\Dictionary.cs" />
     <Compile Include="Collections\Employee.cs" />
     <Compile Include="Collections\Array.cs" />
+    <Compile Include="Collections\HashSet.cs" />
+    <Compile Include="Collections\LinkedListCollection.cs" />
     <Compile Include="Collections\List.cs" />
     <Compile Include="Collections\Queue.cs" />
+    <Compile Include="Collections\Sorted.cs" />
+    <Compile Include="Collections\Stack.cs" />
     <Compile Include="ObjectOriented\Abstract.cs" />
     <Compile Include="ObjectOriented\InheritanceAndPolymorphism.cs" />
     <Compile Include="ObjectOriented\Interface.cs" />

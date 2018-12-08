@@ -48,9 +48,14 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DictionaryTests.cs" />
+    <Compile Include="HashSetTests.cs" />
+    <Compile Include="LinkedListTests.cs" />
     <Compile Include="ListTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueTests.cs" />
+    <Compile Include="SortedTest.cs" />
+    <Compile Include="StackTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

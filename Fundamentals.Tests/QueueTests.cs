@@ -33,5 +33,21 @@ namespace Fundamentals.Test
             Assert.IsTrue(queue.Contains(2));
             Assert.IsFalse(queue.Contains(4));
         }
+        [TestMethod]
+        public void QueueToArray()
+        {
+            var queue = new Queue<int>();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+
+            var arrray = queue.ToArray();
+
+            queue.Dequeue();
+
+            Assert.AreEqual(arrray[0], 1);
+            Assert.AreEqual(2, queue.Count);
+
+        }
     }
 }

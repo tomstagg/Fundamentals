@@ -13,12 +13,16 @@ namespace Fundamentals
             //Abstract.Run();
             //Interface.Run();
             //InheritanceAndPolymorphism.Run();
-            
+
             //Collections
             //ArrayFundamentals.Run();
-            ListCollection.Run();
-            QueueCollection.Run();
-
+            //ListCollection.Run();
+            //QueueCollection.Run();
+            //StackCollection.Run();
+            //HashSetCollection.Run();
+            //LinkedListCollection.Run();
+            //DictionaryCollection.Run();
+            SortedCollections.Run();
         }
     }
 
