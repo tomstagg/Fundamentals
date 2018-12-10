@@ -48,17 +48,25 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DictionaryTests.cs" />
-    <Compile Include="HashSetTests.cs" />
-    <Compile Include="LinkedListTests.cs" />
-    <Compile Include="ListTests.cs" />
+    <Compile Include="Collections\DictionaryTests.cs" />
+    <Compile Include="Collections\HashSetTests.cs" />
+    <Compile Include="Collections\LinkedListTests.cs" />
+    <Compile Include="Collections\ListTests.cs" />
+    <Compile Include="Generics\CircularBufferTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueueTests.cs" />
-    <Compile Include="SortedTest.cs" />
-    <Compile Include="StackTests.cs" />
+    <Compile Include="Collections\QueueTests.cs" />
+    <Compile Include="Collections\SortedTest.cs" />
+    <Compile Include="Collections\StackTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Fundamentals\Fundamentals.csproj">
+      <Project>{abc1ba92-65dc-4e4b-9049-904dad9a6721}</Project>
+      <Name>Fundamentals</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
