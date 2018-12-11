@@ -10,7 +10,8 @@ namespace Fundamentals.Generics
     {
         internal static void Run()
         {
-            var buffer = new CircularBuffer<int>(capacity: 3);
+            //var buffer = new CircularBuffer<int>(capacity: 3);
+            var buffer = new Buffer<int>();
             //var buffer = new CircleBufferNonGeneric(capacity: 3);
 
             ProcessInput(buffer);
@@ -33,7 +34,7 @@ namespace Fundamentals.Generics
 
         private static void ProcessInput(IBuffer<int> buffer)
         {
-            Console.WriteLine("Input into the circular buffer:");
+            Console.WriteLine("Input into the buffer:");
             while (true)
             {
                 var value = 0;

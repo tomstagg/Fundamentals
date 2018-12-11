@@ -54,6 +54,7 @@
     <Compile Include="Collections\Queue.cs" />
     <Compile Include="Collections\Sorted.cs" />
     <Compile Include="Collections\Stack.cs" />
+    <Compile Include="Generics\Buffer.cs" />
     <Compile Include="Generics\CircularBuffer.cs" />
     <Compile Include="Generics\CircularBufferNonGeneric.cs" />
     <Compile Include="Generics\CircularBufferUserInput.cs" />
