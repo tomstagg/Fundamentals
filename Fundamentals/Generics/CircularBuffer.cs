@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Fundamentals.Generics
 {
-    public class CircularBuffer<T>
+    public interface IBuffer<T>
+    {
+        bool IsEmpty { get; }
+
+        T Read();
+        void Write(T element);
+    }
+    public class CircularBuffer<T> : IBuffer<T>
     {
         private T[] _buffer;
         private int _start = 0;

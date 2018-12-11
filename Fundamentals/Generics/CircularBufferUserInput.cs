@@ -18,7 +18,7 @@ namespace Fundamentals.Generics
 
             ProcessBuffer(buffer);
         }
-        private static void ProcessBuffer(CircularBuffer<int> buffer)
+        private static void ProcessBuffer(IBuffer<int> buffer)
         {
             var sum = 0;
             Console.WriteLine("Buffer: ");
@@ -31,7 +31,7 @@ namespace Fundamentals.Generics
             Console.WriteLine(sum);
         }
 
-        private static void ProcessInput(CircularBuffer<int> buffer)
+        private static void ProcessInput(IBuffer<int> buffer)
         {
             Console.WriteLine("Input into the circular buffer:");
             while (true)
