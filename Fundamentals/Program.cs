@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fundamentals.Strings;
 
 namespace Fundamentals
 {
@@ -11,6 +12,7 @@ namespace Fundamentals
     {
         static void Main(string[] args)
         {
+
             //Abstract.Run();
             //Interface.Run();
             //InheritanceAndPolymorphism.Run();
@@ -24,7 +26,9 @@ namespace Fundamentals
             //LinkedListCollection.Run();
             //DictionaryCollection.Run();
             //SortedCollections.Run();
-            CircularBufferUserInput.Run();
+            //CircularBufferUserInput.Run();
+            //ProductRunner.Run();
+            StringFormatter.Run();
         }
     }
 

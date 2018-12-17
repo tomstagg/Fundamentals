@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Fundamentals.Tests.Generics
 {
+    
     [TestClass]
     public class CircularBufferTests
     {
