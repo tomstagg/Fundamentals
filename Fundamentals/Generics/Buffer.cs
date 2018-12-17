@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Fundamentals.Generics
 {
-    class Buffer<T> : IBuffer<T>
+    public class Buffer<T> : IBuffer<T>
     {
-        Queue<T> _queue = new Queue<T>();
-        public bool IsEmpty
+        protected Queue<T> _queue = new Queue<T>();
+        public virtual bool IsEmpty
         {
             get { return _queue.Count == 0; }
         }
-        public void Write(T element)
+        public virtual void Write(T element)
         {
             _queue.Enqueue(element);
         }
 
-        public T Read()
+        public virtual T Read()
         {
             return _queue.Dequeue();
         }

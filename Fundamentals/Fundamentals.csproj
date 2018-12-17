@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Product.cs" />
     <Compile Include="Collections\Dictionary.cs" />
     <Compile Include="Collections\Employee.cs" />
     <Compile Include="Collections\Array.cs" />
@@ -58,11 +59,13 @@
     <Compile Include="Generics\CircularBuffer.cs" />
     <Compile Include="Generics\CircularBufferNonGeneric.cs" />
     <Compile Include="Generics\CircularBufferUserInput.cs" />
+    <Compile Include="Generics\CircularBufferWithQueue.cs" />
     <Compile Include="ObjectOriented\Abstract.cs" />
     <Compile Include="ObjectOriented\InheritanceAndPolymorphism.cs" />
     <Compile Include="ObjectOriented\Interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\StringFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
