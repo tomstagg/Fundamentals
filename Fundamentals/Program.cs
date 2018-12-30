@@ -5,6 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Fundamentals.Strings;
+using System.Speech.Synthesis;
+using Fundamentals.Delegates;
+using Fundamentals.Classes.InitaliseInstance;
+using Fundamentals.Classes.MethodParameters;
 
 namespace Fundamentals
 {
@@ -27,8 +31,12 @@ namespace Fundamentals
             //DictionaryCollection.Run();
             //SortedCollections.Run();
             //CircularBufferUserInput.Run();
-            //ProductRunner.Run();
-            StringFormatter.Run();
+            //ProductRunner.Run()
+            //StringFormatter.Run();
+            //DelegateBasic.Run();
+            //MethodParameterRunner.Run();
+            InitaliseInstanceRunner.Run();
+            Console.ReadKey();
         }
     }
 

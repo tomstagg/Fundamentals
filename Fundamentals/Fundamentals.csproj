@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Product.cs" />
+    <Compile Include="Classes\InitialiseInstance.cs" />
     <Compile Include="Collections\Dictionary.cs" />
     <Compile Include="Collections\Employee.cs" />
     <Compile Include="Collections\Array.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Collections\Queue.cs" />
     <Compile Include="Collections\Sorted.cs" />
     <Compile Include="Collections\Stack.cs" />
+    <Compile Include="Delegates\DelegateBasic.cs" />
     <Compile Include="Generics\Buffer.cs" />
     <Compile Include="Generics\CircularBuffer.cs" />
     <Compile Include="Generics\CircularBufferNonGeneric.cs" />
@@ -66,9 +68,13 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\StringFormatter.cs" />
+    <Compile Include="Classes\MethodParameters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Types\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
