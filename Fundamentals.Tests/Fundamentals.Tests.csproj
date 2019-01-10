@@ -58,6 +58,7 @@
     <Compile Include="Collections\SortedTest.cs" />
     <Compile Include="Collections\StackTests.cs" />
     <Compile Include="Methods\ParameterPassingRefOutTests.cs" />
+    <Compile Include="Strings\StringFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

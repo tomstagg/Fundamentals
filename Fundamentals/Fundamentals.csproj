@@ -62,6 +62,7 @@
     <Compile Include="Generics\CircularBufferNonGeneric.cs" />
     <Compile Include="Generics\CircularBufferUserInput.cs" />
     <Compile Include="Generics\CircularBufferWithQueue.cs" />
+    <Compile Include="Linq\LinqOverview.cs" />
     <Compile Include="ObjectOriented\Abstract.cs" />
     <Compile Include="ObjectOriented\InheritanceAndPolymorphism.cs" />
     <Compile Include="ObjectOriented\Interface.cs" />

@@ -9,6 +9,7 @@ using System.Speech.Synthesis;
 using Fundamentals.Delegates;
 using Fundamentals.Classes.InitaliseInstance;
 using Fundamentals.Classes.MethodParameters;
+using Fundamentals.Linq;
 
 namespace Fundamentals
 {
@@ -35,7 +36,8 @@ namespace Fundamentals
             //StringFormatter.Run();
             //DelegateBasic.Run();
             //MethodParameterRunner.Run();
-            InitaliseInstanceRunner.Run();
+            //InitaliseInstanceRunner.Run();
+            LinqOverview.Run();
             Console.ReadKey();
         }
     }
